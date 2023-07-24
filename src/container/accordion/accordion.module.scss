@@ -1,0 +1,29 @@
+.accordion{
+    border-bottom: .5px dashed var(--color-black);
+}
+
+.label {
+  justify-content: space-between;
+  align-items: center;
+  background: gray;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 3rem;
+
+  &-rotate{
+    transform: rotate(45deg);
+  }
+}
+
+.content {
+ 
+  overflow: hidden;
+  height: 0;
+
+  &-show {
+    height: 10rem;
+  }
+}

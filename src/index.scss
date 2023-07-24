@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  transition: .4s linear;
+}
+
+:root {
+  font-size: clamp(30%, 62.5%, 75%);
+
+  --color-white: #fff;
+  --color-black: #010101;
+
+  --padding-space: 2rem;
+}
+
+html {
+  overscroll-behavior-y: none;
+}
+
+body {
+  font-size: 1.4rem;
+}
+
+.container {
+  padding: 5% 10%;
+
+  @media (min-width: 64em) {
+    & {
+      max-width: 80%;
+      margin: 0 auto;
+    }
+  }
+}
+
+span {
+  display: inline-block;
+  margin-top: 1.6rem;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: capitalize;
+}
+
+@mixin invert {
+  background: var(--color-white);
+  color: var(--color-black);
+}
