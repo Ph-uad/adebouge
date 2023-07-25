@@ -11,7 +11,7 @@ const Accordion = () => {
   return (
     <section className={classes.accordion}>
       <span className={ `${classes.label} flex` } onClick={ toggleAccordionHandler }>
-        <h3>title</h3>
+        <h3>Accordion Title</h3>
         <div className={ `${classes.icon} + ${doShowMessage ? classes['icon-rotate'] : ' '}` }>&#43;</div>
       </span>
       <div className={ ` ${classes.content} + ${doShowMessage ? classes['content-show'] : ' '}` }>
