@@ -57,6 +57,12 @@ h2 {
   padding: 0 1rem;
 }
 
+.ellipse{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 ::selection {
   color: var(--color-white);
   background: var(--color-black);
