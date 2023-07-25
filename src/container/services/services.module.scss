@@ -1,7 +1,16 @@
-.list > div{
-    flex: 1 30%;
-    padding: var(--padding-space);
-    background: limegreen;
-    aspect-ratio: 1/1.3;
-    list-style: none;
+.list {
+  flex: 1 30rem;
+  padding: 0;
+}
+
+.list figure {
+  width: 100%;
+  aspect-ratio: 1/1.3;
+}
+
+.list > figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
 }

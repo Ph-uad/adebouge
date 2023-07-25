@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  transition: .4s linear;
+  transition: 0.4s linear;
 }
 
 :root {
   font-size: clamp(30%, 62.5%, 75%);
+  line-height: 1.7;
 
   --color-white: #fff;
   --color-black: #010101;
@@ -40,9 +40,26 @@ span {
 }
 
 h1,
-h2,
-h3 {
+h2 {
   text-transform: capitalize;
+  line-height: 2;
+}
+
+.heading {
+
+  &-secondary {
+    font-size: clmap(2rem, 3vw, 2.7rem);
+  }
+}
+
+.item {
+  list-style: none;
+  padding: 0 1rem;
+}
+
+::selection {
+  color: var(--color-white);
+  background: var(--color-black);
 }
 
 @mixin invert {

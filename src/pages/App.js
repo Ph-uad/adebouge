@@ -1,3 +1,4 @@
+import { Strategy, Transformation, Window } from "../assets";
 import { Form, Header, Nav } from "../components";
 import { CaseStudy, Services } from "../container";
 import './App.scss'
@@ -7,13 +8,16 @@ const App = () => {
 
     const data = [
         {
-            title: "Business Startegy Consultation"
+            title: "Business Startegy Consultation",
+            poster: Strategy,
         },
         {
-            title: "Digital Transformation"
+            title: "Digital Transformation",
+            poster: Transformation,
         },
         {
-            title: "Cooperate Philantrophy"
+            title: "Co-operate Philantrophy",
+            poster: Window,
         }
     ]
 
