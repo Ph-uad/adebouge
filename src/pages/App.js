@@ -1,4 +1,4 @@
-import { Strategy, Transformation, Window } from "../assets";
+import { Digital, Philantrophy, Strategy } from "../assets";
 import { Form, Header, Nav } from "../components";
 import { CaseStudy, Services } from "../container";
 import './App.scss'
@@ -13,11 +13,11 @@ const App = () => {
         },
         {
             title: "Digital Transformation",
-            poster: Transformation,
+            poster: Digital,
         },
         {
             title: "Co-operate Philantrophy",
-            poster: Window,
+            poster: Philantrophy,
         }
     ]
 
