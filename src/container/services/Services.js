@@ -14,7 +14,7 @@ const Services = ({ data }) => {
         </figure>
         <article>
           <h2 className='heading-secondary'>{ item.title }</h2>
-          <p className='ellipse'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, modi voluptatibus cumque incidunt magni suscipit.</p>
+          <p className='text-ellipse'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, modi voluptatibus cumque incidunt magni suscipit.</p>
         </article>
         <button href="" className="link">Learn More</button>
       </a>
