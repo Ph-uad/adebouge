@@ -1,11 +1,9 @@
-::selection{
-    background: var(--color-white);
-    color: var(--color-black);
+::selection {
+  background: var(--color-white);
+  color: var(--color-black);
 }
 
-.header{
-    color: var(--color-white);
-    background: var(--color-black);
-    padding:10% 0;
+.header {
+  padding: 15%;
+  background: linear-gradient(transparent, #eee8e9 80%);
 }
-

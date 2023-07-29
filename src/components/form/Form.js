@@ -5,20 +5,16 @@ const Form = () => {
     <form action="" className="">
         <div className={`container ${classes.form__container}`}>
             <div className="form-control half">
-                <input type="text" name='firstname' id='firstname'/>
-                <label htmlFor="firstname">First Name</label>
+                <input autoComplete type="text" name='name' placeholder='First and Last Name' id='name'/>
+                <label htmlFor="name">Name</label>
             </div>
             <div className="form-control half">
-                <input type="text" name='lastname' id='lastname'/>
-                <label htmlFor="lastname">Last Name</label>
+                <input autoComplete type="text" placeholder='Company Name' name='comapny' id='comapny'/>
+                <label htmlFor="comapny">Comapny Name</label>
             </div>
             <div className="form-control">
-                <input type="email" name='email' id='email'/>
+                <input autoComplete type="email" placeholder='johndoe@gmail.com' name='email' id='email'/>
                 <label htmlFor="email">Email</label>
-            </div>
-            <div className="form-control">
-                <input type="text" name='subject' id='subject'/>
-                <label htmlFor="subject">Subject</label>
             </div>
             <div className="form-control">
              <select name="" id="">
@@ -27,7 +23,7 @@ const Form = () => {
              </select>
             </div>
             <div className="form-control">
-                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                <textarea name="message" placeholder='Send us a message' id="message" cols="30" rows="10"></textarea>
                 <label htmlFor="message">Message</label>
             </div>
         </div>

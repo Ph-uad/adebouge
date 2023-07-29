@@ -1,11 +1,10 @@
-.accordion{
-    border-bottom: .5px dashed var(--color-black);
+.accordion {
+  border-bottom: 0.5px dashed var(--color-black);
 }
 
 .label {
   justify-content: space-between;
   align-items: center;
-  background: gray;
   padding: 1rem;
   cursor: pointer;
 }
@@ -13,13 +12,13 @@
 .icon {
   font-size: 3rem;
 
-  &-rotate{
+  &-rotate {
     transform: rotate(45deg);
   }
 }
 
 .content {
- 
+  padding:.5rem 3rem;
   overflow: hidden;
   height: 0;
 

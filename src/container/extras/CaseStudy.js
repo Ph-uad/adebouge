@@ -7,8 +7,8 @@ const CaseStudy = () => {
       <h2>Case Study</h2>
       <ul>
           <Accordion/>
-        <h4>Accordion 2</h4>
-        <h4>Accordion 3</h4>
+          <Accordion/>
+          <Accordion/>
       </ul>
     </div>
   )

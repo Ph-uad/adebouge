@@ -4,7 +4,7 @@ const Navigation = () => {
   return (
     <nav className={classes.nav}>
       <div className={`${classes.nav__container} flex`}>
-        <a href="####" className='nav__link'>Logo</a>
+        <a href="####" className='nav__link'>Adebouge</a>
 
         <ul className="list flex">
           <li className="item">About</li>

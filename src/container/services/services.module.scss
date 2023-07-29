@@ -2,9 +2,9 @@
   flex: 1 30rem;
   overflow: hidden;
 
-  & a{
-      color: inherit;
-      text-decoration: none;
+  & a {
+    color: inherit;
+    text-decoration: none;
   }
 
   & figure {
@@ -14,22 +14,19 @@
     border-radius: 1rem;
   }
 
-  &  figure img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  & figure img {
     object-position: center center;
   }
 
   & button {
     all: unset;
     text-decoration: 0px underline transparent;
-    text-underline-offset: .5rem;
+    text-underline-offset: 0.5rem;
   }
-  
 
   &:hover {
-    & button {
+    & button,
+    button:hover {
       text-decoration: 1px underline var(--color-black);
     }
 
@@ -39,9 +36,8 @@
   }
 }
 
-
 .modal {
-  background: var(--color-black);
-  color: var(--color-white);
+  background: var(--color-white-secondary);
+ 
   padding: 2% 10%;
 }
