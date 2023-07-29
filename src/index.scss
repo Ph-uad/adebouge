@@ -2,25 +2,29 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: 0.4s linear;
+  transition: 0.2s linear;
 }
 
 :root {
   font-size: clamp(30%, 62.5%, 75%);
   line-height: 1.7;
 
-  --color-white: #fff;
-  --color-black: #010101;
+  --color-white: #fcf7f8;
+  --color-white-secondary: #bbb4b6;
+  --color-black: #0f0607;
 
   --padding-space: 2rem;
 }
 
 html {
   overscroll-behavior-y: none;
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
 }
 
 body {
   font-size: 1.4rem;
+  background: var(--color-white);
 }
 
 .container {
@@ -43,24 +47,37 @@ h1,
 h2 {
   text-transform: capitalize;
   line-height: 2;
+
+  font-family: "Abhaya Libre", serif;
 }
 
 .heading {
-
   &-secondary {
     font-size: clmap(2rem, 3vw, 2.7rem);
   }
 }
 
+.text {
+  &-center {
+    text-align: center;
+  }
+
+  &-ellipse {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 .item {
   list-style: none;
   padding: 0 1rem;
-}
-
-.ellipse{
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 ::selection {
