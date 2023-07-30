@@ -23,7 +23,7 @@ const Services = ({ data }) => {
 
   return (
     <div className='position-relative'>
-      <section>
+      <section id='services'>
         <div className="container">
           <ul className='flex'>
             { list }
@@ -42,7 +42,7 @@ const Services = ({ data }) => {
             exit={ { opacity: 0 } }
           >
             <div className="container">
-              {/* <motion.button onClick={() => setSelectedId(null)}>&#10060;</motion.button> */ }
+              <a href="#services"> <motion.button onClick={ () => setSelectedId(null) }>&#10060;</motion.button> </a>
               <figure className={ classes.list__figure }>
                 <img src={ selectedId.poster } alt={ selectedId.title } />
               </figure>

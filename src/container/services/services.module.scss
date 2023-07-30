@@ -37,6 +37,8 @@
 }
 
 .modal {
-  background: var(--color-white-secondary);
+  background: var(--color-black);
+  color: var(--color-white);
   padding: 2% 10%;
+  height: 100vh;
 }
