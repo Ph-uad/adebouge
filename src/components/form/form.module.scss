@@ -1,5 +1,43 @@
-.form__container{
+.form {
     background: var(--color-black);
+
+  &__container {
     color: var(--color-white);
     border-radius: 1rem;
+  }
+
+  &__control {
+    margin: 1.5rem;
+    position: relative;
+
+    & input,
+    textarea,
+    select {
+      display: block;
+      padding: 1rem 1.5rem;
+      margin: 3rem 0;
+      width: 50%;
+      border: 1px solid transparent;
+
+      &:focus {
+        outline: 3px ridge var(--color-white-secondary);
+        border-radius: 2rem;
+      }
+    }
+
+    & label {
+      padding: 0 1.5rem;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+    }
+
+    & input:not(:placeholder-shown) ~ label,
+    & textarea:not(:placeholder-shown) ~ label{
+    //   color: var(--color-black);
+      top: 100%;
+      opacity: 1;
+    }
+  }
 }
