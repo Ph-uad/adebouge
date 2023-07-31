@@ -1,5 +1,6 @@
 .form {
-    background: var(--color-black);
+  background: var(--accent-color-2);
+  border-bottom: 1px solid var(--accent-color-1);
 
   &__container {
     color: var(--color-white);
@@ -34,8 +35,8 @@
     }
 
     & input:not(:placeholder-shown) ~ label,
-    & textarea:not(:placeholder-shown) ~ label{
-    //   color: var(--color-black);
+    & textarea:not(:placeholder-shown) ~ label {
+      //   color: var(--color-black);
       top: 100%;
       opacity: 1;
     }

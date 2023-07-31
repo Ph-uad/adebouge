@@ -11,8 +11,10 @@
 
 .icon {
   font-size: 3rem;
+  transform-origin: center;
 
   &-rotate {
+    color: red;
     transform: rotate(45deg);
   }
 }
