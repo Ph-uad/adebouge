@@ -1,10 +1,15 @@
 .form {
-  background: var(--accent-color-2);
-  border-bottom: 1px solid var(--accent-color-1);
+  background: linear-gradient(#010101, #1515153d),
+    url(../../assets/images/contact.webp);
+    background-position: center center;
+    background-size: cover;
+  padding: 10%;
 
   &__container {
     color: var(--color-white);
     border-radius: 1rem;
+    max-width: 60rem;
+    margin-left: auto;
   }
 
   &__control {
@@ -17,11 +22,11 @@
       display: block;
       padding: 1rem 1.5rem;
       margin: 3rem 0;
-      width: 50%;
+      width: 100%;
       border: 1px solid transparent;
 
       &:focus {
-        outline: 3px ridge var(--color-white-secondary);
+        outline: 3px ridge var(--color-black);
         border-radius: 2rem;
       }
     }
