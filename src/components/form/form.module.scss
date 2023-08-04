@@ -3,12 +3,13 @@
     url(../../assets/images/contact.webp);
     background-position: center center;
     background-size: cover;
-  padding: 10%;
+
 
   &__container {
+    padding: 10%;
     color: var(--color-white);
     border-radius: 1rem;
-    max-width: 60rem;
+    max-width: 96rem;
     margin-left: auto;
   }
 
@@ -20,7 +21,7 @@
     textarea,
     select {
       display: block;
-      padding: 1rem 1.5rem;
+      padding: 1.5rem;
       margin: 3rem 0;
       width: 100%;
       border: 1px solid transparent;
