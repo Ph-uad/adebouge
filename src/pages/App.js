@@ -1,5 +1,5 @@
-import { Digital, Philantrophy, Strategy } from "../assets";
-import { Form, Header, Nav } from "../components";
+import { Philantrophy } from "../assets";
+import { Footer, Form, Header, Nav } from "../components";
 import { CaseStudy, Services } from "../container";
 import './App.scss'
 
@@ -8,15 +8,7 @@ const App = () => {
 
     const data = [
         {
-            title: "Business Startegy Consultation",
-            poster: Strategy,
-        },
-        {
-            title: "Digital Transformation",
-            poster: Digital,
-        },
-        {
-            title: "Co-operate Philantrophy",
+            title: "Cooperate Philantrophy",
             poster: Philantrophy,
         }
     ]
@@ -24,10 +16,11 @@ const App = () => {
     return (
         <>
             <Nav />
-            <Header/>
+            <Header />
             <Services data={ data } />
             <CaseStudy />
             <Form />
+            <Footer />
         </>
     )
 }

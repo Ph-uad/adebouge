@@ -7,17 +7,17 @@ const Services = ({ data }) => {
   const [selectedId, setSelectedId] = useState(null)
 
   const list = data?.map((item, i) => (
-    <motion.li key={ i } className={ `item ${classes.list}` } layoutId={ item.id } onClick={ () => setSelectedId(item) }>
-      <a href="#more-info">
-        <figure className={ classes.list__figure }>
-          <img src={ item.poster } alt={ item.title } />
-        </figure>
-        <article>
-          <h2 className='heading-secondary'>{ item.title }</h2>
-          <p className='text-ellipse'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, modi voluptatibus cumque incidunt magni suscipit.</p>
-        </article>
+    <motion.li key={ i } className={ `item ${classes.list} flex` } layoutId={ item.id } onClick={ () => setSelectedId(item) }>
+      {/* <a href="#more-info"> */ }
+      <figure >
+        <img src={ item.poster } alt={ item.title } />
+      </figure>
+      <article>
+        <h2 className='heading-secondary'>{ item.title }</h2>
+        <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, modi voluptatibus cumque incidunt magni suscipit.</p>
         <button href="" className="link">Learn More</button>
-      </a>
+      </article>
+      {/* </a> */ }
     </motion.li>
   ))
 
