@@ -1,0 +1,12 @@
+.footer{
+    background: var(--color-black);
+    color: var(--color-white);
+
+    &__topSection{
+        justify-content: space-between;
+    }
+
+    &__footSection{
+        border-top: .6px dashed var(--color-white);
+    }
+}
