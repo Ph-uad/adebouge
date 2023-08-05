@@ -12,6 +12,11 @@
     aspect-ratio: 1/1.3;
     overflow: hidden;
     border-radius: 1rem;
+    flex: 0 30%;
+  }
+
+  & article{
+    flex: 0 50%;
   }
 
   & figure img {

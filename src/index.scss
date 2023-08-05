@@ -15,7 +15,7 @@
   --color-white: #fcf7f8;
   --color-white-secondary: #bbb4b6;
 
-  --color-black: #0f0607;
+  --color-black: #000000;
 
   --padding-space: 2rem;
 }
@@ -32,7 +32,7 @@ body {
 }
 
 .container {
-  padding: 5% 10%;
+  padding: 2.5% 5%;
 
   @media (min-width: 64em) {
     & {
@@ -50,14 +50,15 @@ span {
 h1,
 h2 {
   text-transform: capitalize;
-  line-height: 2;
+  line-height: 1;
+  margin-bottom: 1.5rem;
 
   font-family: "Abhaya Libre", serif;
 }
 
 .heading {
   &-secondary {
-    font-size: clmap(2rem, 3vw, 2.7rem);
+    font-size: clamp(2.7rem, 3vw, 4rem);
   }
 }
 
