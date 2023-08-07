@@ -19,11 +19,7 @@ const Footer = () => {
                 </section>
        
             </div>
-
-            <div className={ `${classes.footer__footSection} container` }>
-                <h3>Adebouge International</h3>
-            </div>
-
+ 
         </footer>
     )
 }
